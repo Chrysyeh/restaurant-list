@@ -1,7 +1,7 @@
 // require packages used in the project
 const express = require('express')
 const app = express()
-const port = 2000
+const port = 3000
 const exphbs = require('express-handlebars')
 const res = require('express/lib/response')
 const restaurantsData = require('./restaurant.json').results
